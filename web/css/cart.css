@@ -1,0 +1,125 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 6, 2023, 9:57:35 AM
+    Author     : pc
+*/
+body{
+    margin: 0;
+}
+#content-bound{
+    min-width: 1280px;
+    background-image: url("../image/background.jpg");
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+#second-bound{
+    display: flex;
+    justify-content: center;
+}
+#content-sub-bound{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-width: 1280px;
+    max-width: 1530px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(121, 104, 30);
+    border-radius: 25px;
+    background: white;
+}
+.cart-title{
+    color: firebrick;
+    font-family:'utm_bitsumishi_proregular';
+    font-weight: lighter;
+    text-decoration: none;
+}
+#cart-top-bar{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-width: 0px 0px 2px 0px;
+    border-style: dotted;
+    border-color: rgb(121, 104, 30);
+}
+#user-cart-link-pro{
+    
+}
+#user-cart-link-pro:hover{
+    color: red;
+}
+#cart-column-info{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    background: firebrick;
+    color:white;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 20px 20px 0px 0px;
+    font-family:sans-serif;
+}
+#cart-column-info div{
+    text-align: center;
+}
+.cart-funct-butt{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-decoration: none;
+    background: firebrick; 
+    width: 100%; 
+    height: 25px;
+    color: white;
+    transition-property: height;
+    transition-duration: 0.25s;
+}
+.cart-funct-butt:hover{
+    background: red;
+    height: 60px;
+}
+.fdsafdsa-icon{
+    display: none;
+}
+.cart-funct-butt:hover .fdsafdsa-icon{
+    display: block;
+}
+.fdsafdsa-text{
+    font-family: sans-serif;
+}
+#fdsavc-submit-buy{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0;
+    background: #eee;
+    box-shadow: 1px 1px 5px 0px;
+    height: 120px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#dsavcx-sumary-price{
+    font-family:'utm_bitsumishi_proregular';
+    color: crimson;
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+#commit-buy-cart-dsa{
+    color:white; 
+    border-color: crimson;
+    background: #ba2f2f;
+    height: 50px; 
+    width: 200px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+#commit-buy-cart-dsa:hover{
+    background: crimson;
+}

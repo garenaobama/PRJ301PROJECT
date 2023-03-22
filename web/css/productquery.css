@@ -1,0 +1,18 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 13, 2023, 9:56:49 AM
+    Author     : pc
+*/
+
+#main-filter-cưanqmo{
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 1150px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -1,0 +1,177 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 4, 2023, 3:33:45 PM
+    Author     : pc
+*/
+
+#header {
+    min-width: 1280px;
+    height: 125px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+#left-section {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+#logo{
+    width: 100px;
+}
+#right-section{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button-decor-title{
+    font-family:'utm_bitsumishi_proregular';
+    font-size: 1rem;
+    width: 150px;
+    color: white;
+    position: absolute; 
+    z-index: 2;
+    margin: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-decor-title:link{
+    text-decoration: none;
+}
+.button-below{
+    position: absolute;
+    height: 188px;
+    width: 188px;
+    background-color: black;
+    z-index: 1;
+}
+
+.button-bound {
+    display: flex;
+    justify-content: center;
+}
+#decor-powered-button-bound{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 840px;
+}
+#search-form{
+    margin-left: 100px;
+}
+#search-bar-bound{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#search-input{
+    border: 1px dashed black;
+    border-radius: 20px; 
+    width: 200px;
+    height: 35px;
+    padding-left: 35px;
+}
+#search-input:focus{
+    outline: none;
+    animation: 0.3s search-ani2;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+#search-icon{
+    position: absolute; 
+    margin-left: 15px;
+}
+#search-bar-bound:focus-within #search-icon{
+    animation: 0.3s search-ani1;
+    margin-left: 85px;
+    opacity:0% ;
+}
+@keyframes search-ani1 {
+    0%   {opacity:100% ;margin-left: 15px;}
+    100% {opacity:0% ;margin-left: 0px;}
+}
+@keyframes search-ani2 {
+    0%   {padding-left: 35px; padding-right: 0px;}
+    100% {padding-left: 15px;padding-right: 20px;}
+}
+#top-bar-above-bound{
+    display: flex;
+    height: 85px;
+    width: 100%;
+    z-index: 3;
+    background: white;
+}
+#top-bar-above{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#top-bar-below{
+    height: 40px;
+    width: 100%;
+    
+}
+#no-decor-func{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.upper-func-link{
+    text-decoration: none;
+    color : rgb(121, 104, 30);
+    font-family: arial;
+    margin: 0;
+}
+.decor-powered-button-sub-bound{
+    display: flex;
+    justify-content: center;
+}
+.decor-powered-button-sub-bound:hover .button-below{
+    background: goldenrod;
+}
+.func-box-expand{
+    display: none;
+    margin-top:40px;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 0px;
+}
+.decor-powered-button-sub-bound:hover .func-box-expand{
+    display: none; /*** change this ****/
+    position: absolute;
+    z-index: 3;
+    background: white;
+}
+.link-product-query{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.cmewogvnbfisud{
+    display: flex;
+}
+:root{
+    /*--theme-color:rgb(121, 104, 30);*/
+   --theme-color: rgb(171,141,66);
+
+}
+.theme{
+    color: var(--theme-color);
+}
+a.theme{
+    background-color:var(--theme-color);
+}
+path.theme{
+    fill: var(--theme-color);
+}

@@ -1,0 +1,235 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 2, 2023, 11:58:41 PM
+    Author     : pc
+*/
+body{
+    margin: 0;
+}
+#content-bound{
+    min-width: 1280px;
+    background-image: url("../image/background.jpg");
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+#second-bound{
+    display: flex;
+    justify-content: center;
+}
+#content-sub-bound{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-width: 1280px;
+    max-width: 1530px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(121, 104, 30);
+    border-radius: 25px;
+    background: white;
+}
+#content-sub-sub-bound{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#category-path{
+    margin-top: 15px;
+}
+.category-path-link{
+    font-family: arial;
+    color : rgb(171,141,66);
+    text-decoration: none;
+}
+.category-path-link:hover{
+    color: goldenrod;
+}
+#image-field-bound{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 600px;
+}
+#main-image-bound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    height: 400px;
+    overflow: hidden;
+}
+.main-image{
+    width: 100%;
+    
+}
+#below-image-bound{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+#below-image-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.small-image-box{
+    display: flex;
+    align-items: center;
+    background:  rgb(171,141,66);
+    width: 23%;
+    height: 100px;
+    overflow: hidden;
+}
+.small-image{
+    width: 100%;
+}
+#info-field-bound{
+    width: 55%;
+}
+#product-title{
+    font-family: arial;
+    color : rgb(171,141,66);
+}
+.information-text{
+    font-family: arial;
+    font-weight: lighter;
+}
+#line-decor{
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+}
+#price-display{
+    color: red;
+    font-size: 2.5rem;
+    font-family:'utm_bitsumishi_proregular';
+    font-weight: lighter;
+    margin: 0;
+}
+#old-price-display{
+    text-decoration: line-through;
+    font-family: arial;
+    color: #ccc;
+    margin: 0;
+}
+#price-box{
+    display: flex;
+    justify-content: space-around;
+    width: 375px;
+}
+#price-box-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#discount-box{
+    display: flex;
+    align-items: center;
+}
+#discount-display{
+    background: rgb(171,141,66);
+    color: white;
+    padding: 3px;
+    font-family:arial;
+    width: 80px;
+}
+#decor-discount-box{
+    height: 30px;
+    width: 30px;
+    background: white;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-left: 70px;
+}
+#select-price-box{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+}
+#my-select{
+    height: 50px;
+    width: 120px;
+    margin-left: 20px;
+    padding: 5px;
+}
+ .counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter button {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+.counter input {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+#submit-add-to-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 40px;
+    width: 180px;
+    background: rgb(171,141,66);
+    color: white;
+    border: none;
+}
+#submit-add-to-cart:hover{
+    background: goldenrod;
+}
+#addtocartform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    width: 50%;
+}
+#purchase-now-decor-line{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100% ;
+}
+.purchase-decor-line{
+    width: 40%;
+    height: 0.5px;
+    background: #ccc;
+}
+#client-purchase-bound{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(121, 104, 30);
+    border-radius: 25px;
+}
+#create-order-now-button{
+    margin: 10px;
+    height: 40px;
+    background: crimson;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#create-order-now-button:hover{
+    background: red;
+}
