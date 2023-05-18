@@ -9,8 +9,8 @@ package model;
  * @author pc
  */
 public class SubOrder {
-    int orderid,productid,optionid,quantity;
-    double priceperunit;
+    private int orderid,productid,optionid,quantity;
+    private double priceperunit;
 
     public SubOrder() {
     }

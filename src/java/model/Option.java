@@ -9,9 +9,9 @@ package model;
  * @author pc
  */
 public class Option extends Product{
-    int optionid,discount;
-    double price;
-    String optiondescribe;
+    private int optionid,discount;
+    private double price;
+    private String optiondescribe;
 
     public Option() {
     }

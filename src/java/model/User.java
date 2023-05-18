@@ -9,9 +9,9 @@ package model;
  * @author pc
  */
 public class User {
-    int id,role;
-    String name,phone,address;
-    boolean gender;
+    private int id,role;
+    private String name,phone,address;
+    private boolean gender;
     private String username,password;
 
     public User() {

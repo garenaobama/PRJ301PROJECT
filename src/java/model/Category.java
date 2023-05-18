@@ -9,8 +9,8 @@ package model;
  * @author pc
  */
 public class Category {
-    int id;
-    String name,purpose,purposeid;
+    private int id;
+    private String name,purpose,purposeid;
 
     public Category() {
     }

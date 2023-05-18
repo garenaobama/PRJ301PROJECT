@@ -9,9 +9,9 @@ package model;
  * @author pc
  */
 public class Order {
-    int id,userid,status;
-    double totalprice;
-    String orderdate,deliveryaddress,clientname,phonenumber,log;
+    private int id,userid,status;
+    private double totalprice;
+    private String orderdate,deliveryaddress,clientname,phonenumber,log;
 
     public Order() {
     }

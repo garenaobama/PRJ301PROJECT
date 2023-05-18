@@ -9,8 +9,9 @@ package model;
  * @author pc
  */
 public class Product {
-    int id, cateid;
-    String name,describe,material,size,color;
+    int id;
+    private int cateid;
+    private String name,describe,material,size,color;
 
     public Product() {
     }

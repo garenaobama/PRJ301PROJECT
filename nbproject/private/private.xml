@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/pc/OneDrive/Documents/NetBeansProjects/PRJPROJECT/PRJ301PROJECT/src/java/dal/ProductDAO.java</file>
+            <file>file:/C:/Users/pc/OneDrive/Documents/NetBeansProjects/PRJPROJECT/PRJ301PROJECT/web/adminpage.jsp</file>
+            <file>file:/C:/Users/pc/OneDrive/Documents/NetBeansProjects/PRJPROJECT/PRJ301PROJECT/src/java/dal/DashDAO.java</file>
+            <file>file:/C:/Users/pc/OneDrive/Documents/NetBeansProjects/PRJPROJECT/PRJ301PROJECT/src/java/dal/OrderDAO.java</file>
+        </group>
     </open-files>
 </project-private>

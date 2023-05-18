@@ -9,8 +9,8 @@ package model;
  * @author pc
  */
 public class Cart extends Option{
-    int quantity, userid;
-    String adddate;
+    private int quantity, userid;
+    private String adddate;
 
     public Cart() {
     }

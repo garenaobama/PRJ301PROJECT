@@ -9,8 +9,8 @@ package model;
  * @author pc
  */
 public class Status {
-    int id;
-    String status;
+    private int id;
+    private String status;
 
     public Status() {
     }
